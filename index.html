@@ -44,11 +44,6 @@
         .luxury-gradient {
             background: linear-gradient(135deg, #004D40 0%, #00796B 50%, #0F172A 100%);
         }
-        .gold-gradient-text {
-            background: linear-gradient(135deg, #FACC15 0%, #F59E0B 50%, #D4AF37 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
         .teal-glow {
             box-shadow: 0 0 30px rgba(20, 184, 166, 0.25);
         }
@@ -66,14 +61,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <!-- Brand Logo & Name -->
             <div class="flex items-center space-x-3 cursor-pointer" onclick="switchPage('home')">
-                <div class="w-12 h-12 rounded-xl bg-teal-950/80 border border-teal-500/40 p-1.5 flex items-center justify-center teal-glow">
-                    <!-- Custom SVG Interlocking Geometric Diamond Logo -->
-                    <svg viewBox="0 0 100 100" class="w-full h-full text-teal-400 fill-none stroke-current stroke-[6] stroke-linecap-round stroke-linejoin-round">
-                        <path d="M28 15 L72 15 L90 50 L72 85 L28 85 L10 50 Z" opacity="0.3"></path>
-                        <polygon points="35,20 65,20 80,50 65,80 35,80 20,50"></polygon>
-                        <line x1="27" y1="36" x2="73" y2="64"></line>
-                        <line x1="27" y1="64" x2="73" y2="36"></line>
-                    </svg>
+                <div class="w-12 h-12 rounded-xl bg-teal-950/80 border border-teal-500/40 p-1.5 flex items-center justify-center teal-glow overflow-hidden">
+                    <img src="https://i.ibb.co/6R7k39L/logo.png" alt="NammaWeb Logo" class="w-full h-full object-contain">
                 </div>
                 <div>
                     <span class="text-xl sm:text-2xl font-extrabold tracking-tight text-white">NammaWeb <span class="text-teal-400">AI Suite</span></span>
@@ -463,13 +452,8 @@
             <div class="flex flex-col md:flex-row items-center justify-between gap-8 pb-12 border-b border-teal-900/40">
                 <!-- Logo & Email Details -->
                 <div class="flex items-center space-x-4">
-                    <div class="w-14 h-14 rounded-2xl bg-teal-950 border border-teal-500/40 p-2 flex items-center justify-center teal-glow">
-                        <svg viewBox="0 0 100 100" class="w-full h-full text-teal-400 fill-none stroke-current stroke-[6] stroke-linecap-round stroke-linejoin-round">
-                            <path d="M28 15 L72 15 L90 50 L72 85 L28 85 L10 50 Z" opacity="0.3"></path>
-                            <polygon points="35,20 65,20 80,50 65,80 35,80 20,50"></polygon>
-                            <line x1="27" y1="36" x2="73" y2="64"></line>
-                            <line x1="27" y1="64" x2="73" y2="36"></line>
-                        </svg>
+                    <div class="w-14 h-14 rounded-2xl bg-teal-950 border border-teal-500/40 p-2 flex items-center justify-center teal-glow overflow-hidden">
+                        <img src="https://i.ibb.co/6R7k39L/logo.png" alt="NammaWeb Logo" class="w-full h-full object-contain">
                     </div>
                     <div>
                         <span class="text-2xl font-extrabold tracking-tight text-white">NammaWeb</span>
